@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yathzee!</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/juegostyle.css">
+</head>
+<body>
+	<h1>Yathzee!</h1>
+	<div id="scorePosition" class="row">
+		<div class="float-right">
+			<table class="table table-bordered border-dark table-hover">
+				<thead>
+					<tr>
+						<th>Upper section</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Uno</td>
+						<td id="1-score">1</td>
+						<td class="speculative-score">2</td>
+					</tr>
+					<tr>
+						<td>Dos</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Tres</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Cuatro</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Cinco</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Seis</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr id="upper-bonus">
+						<td>Bonus</td>
+						<td id="1-score"></td>
+					</tr>
+				</tbody>
+
+				<thead>
+					<tr>
+						<th>Lower section</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Triple</td>
+						<td id="1-score">1</td>
+						<td class="speculative-score">2</td>
+					</tr>
+					<tr>
+						<td>Cuadruple</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Full House</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Escalera pequeña</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Escalera grande</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Chance</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+					<tr>
+						<td>Yahtzee</td>
+						<td id="1-score"></td>
+						<td class="speculative-score"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<div id="div2">
+		<!--<div class="dado"></div>
+		<div class="dado"></div>
+		<div class="dado"></div>
+		<div class="dado"></div>
+		<div class="dado"></div>-->
+	</div>
+	<button type="button" id="lanzadado" class="btn btn-success">Tirar dados</button>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="juego.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
