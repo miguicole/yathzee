@@ -20,9 +20,17 @@ body{
 #div2{
 	float: left;
 	width: 75%;
-	height: 650px;
+	height: 200px;
 	margin: 10px;
-	background-color: lightblue;
+	background: linear-gradient(to bottom, #32D2E1 5%, #29E3F5 25%, #00E9FF);
+}
+
+#div3{
+	float: left;
+	width: 75%;
+	height: 200px;
+	margin: 10px;
+	background: linear-gradient(to bottom, #139BD2 5%, #17ADE9 25%, #18BAFB);
 }
 
 .dado{
@@ -31,4 +39,17 @@ body{
 }
 .dado:hover{
 	transform: scale(1.2) !important;
+	cursor: pointer;
+}
+#lanzadado{
+	float: right;
+	color: black;
+	font-weight: bold;
+	margin: 10px;
+	font-size: 20px;
+  	line-height: 50px;
+  	text-align: center;
+  	width: 200px;
+  	height: 100px;
+  	background: linear-gradient(to bottom, #2F9C11 5%, #39C114 25%, #44EA17);
 }
